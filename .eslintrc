@@ -4,18 +4,13 @@
     "airbnb",
     "prettier",
     "plugin:eslint-comments/recommended",
-    // "plugin:jest/recommended",
-    "prettier/react",
-    "plugin:flowtype/recommended"
+    "prettier/react"
   ],
   "plugins": ["eslint-comments", "jest", "unicorn", "react-hooks", "flowtype"],
   "env": {
     "browser": true,
     "node": true,
-    "es6": true,
-    "mocha": true,
-    "jest": true,
-    "jasmine": true
+    "es6": true
   },
   "rules": {
     "react/jsx-wrap-multilines": 0,

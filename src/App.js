@@ -1,4 +1,8 @@
+// libs
 import React from "react";
+// components
+import TitleProject from "./components/TitleProject";
+// others
 import logo from "./logo.svg";
 import "./App.css";
 
@@ -7,7 +11,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Reactの勉強</p>
+        <TitleProject />
         <a
           className="App-link"
           href="https://reactjs.org"
