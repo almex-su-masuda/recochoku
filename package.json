@@ -6,6 +6,10 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "eslint": "^7.9.0",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.4.0",
+    "prettier": "^2.1.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3"
@@ -14,7 +18,33 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "npm run lint:js && npm run lint:style",
+    "lint:js": "eslint --cache --fix --ext .js,.jsx ./src",
+    "lint:style": "stylelint --fix \"src/**/*.scss\" --syntax scss",
+    "prettier": "prettier -c \"**/src/**\" --write",
+    "lint-staged:js": "eslint --cache --fix --ext .js,.jsx",
+    "lint-staged:style": "stylelint --fix --syntax scss",
+    "lint-staged:prettier": "prettier -c --write"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,scss,md,json}": [
+      "npm run lint-staged:prettier",
+      "git add"
+    ],
+    "**/*.{js,jsx}": [
+      "npm run lint-staged:js",
+      "git add"
+    ],
+    "**/*.scss": [
+      "npm run lint-staged:style",
+      "git add"
+    ]
   },
   "eslintConfig": {
     "extends": "react-app"
