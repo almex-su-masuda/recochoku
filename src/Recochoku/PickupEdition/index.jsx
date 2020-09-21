@@ -6,7 +6,7 @@ import PickupList from "./mains/PickupList";
 
 function PickupEdition() {
   return (
-    <div className="pickup-edition">
+    <div className="pickup-edition-wrapper">
       <MainTitle />
       <MoreButton />
       <PickupList />

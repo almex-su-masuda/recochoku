@@ -4,6 +4,8 @@ import React from "react";
 import "./style.scss";
 
 // arrow function
-const MainTitle = () => <div className="main-title">ピックアップ特集</div>;
+const MainTitle = () => (
+  <div className="main-title-wrapper">ピックアップ特集</div>
+);
 
 export default MainTitle;

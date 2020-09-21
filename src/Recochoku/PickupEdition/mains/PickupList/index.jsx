@@ -6,7 +6,7 @@ import PickupItem from "../../components/PickupItem/index";
 import "./style.scss";
 
 const PickupList = () => (
-  <div className="pickup-list">
+  <div className="pickup-list-wrapper">
     <PickupItem />
     <PickupItem />
     <PickupItem />
