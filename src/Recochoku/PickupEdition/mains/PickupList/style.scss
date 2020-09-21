@@ -1,1 +1,8 @@
 // no css
+.pickup-list {
+  grid-column: span 2;
+  display: grid;
+  grid-template-rows: min-content min-content;
+  grid-template-columns: min-content min-content min-content;
+  grid-gap: 20px;
+}

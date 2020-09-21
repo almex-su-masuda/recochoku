@@ -1,14 +1,13 @@
 // libs
 import React from "react";
 // components
-import PickupList from "./mains/PickupList";
+import PickupEdition from "./PickupEdition";
 // others
 import "./style.scss";
 
 const Recochoku = () => (
   <div className="recochoku-wrapper">
-    <p>Reactの勉強!</p>
-    <PickupList />
+    <PickupEdition />
   </div>
 );
 
