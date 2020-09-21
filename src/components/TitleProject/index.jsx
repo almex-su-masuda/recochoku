@@ -5,9 +5,7 @@ import "./style.scss";
 
 const TitleProject = () => (
   <div className="title-project-wrapper">
-    <div className="title-project-wrapper-inner">
-      <p>Reactの勉強</p>
-    </div>
+    <p>Reactの勉強</p>
   </div>
 );
 
