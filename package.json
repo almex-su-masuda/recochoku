@@ -16,7 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "npm run lint:js",
+    "lint": "npm run lint:jsx",
     "lint:js": "eslint --cache --fix --ext .js,.jsx ./src",
     "prettier": "prettier -c \"**/src/**\" --write",
     "lint-staged:js": "eslint --cache --fix --ext .js,.jsx",
