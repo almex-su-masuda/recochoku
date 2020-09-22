@@ -1,0 +1,7 @@
+.ranking-container {
+  display: grid;
+  grid-template-rows: max-content max-content;
+  grid-template-columns: max-content max-content;
+  grid-gap: 20px 0px;
+  padding: 20px;
+}
