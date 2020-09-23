@@ -11,10 +11,10 @@ import "./style.scss";
 /* function SongItem = ({ rankNumber }, { songTitle }, { singerName }) => {
   return (
     <div className="song-item-wrapper">
-      <RankNumber rankNumber={rankNumber[i]} />
+      <RankNumber rankNumber={rankNumber} />
       <SongImage />
-      <SongSinger singerName={singerName[i]} />
-      <SongTitle songTitle={songTitle[i]} />
+      <SongSinger singerName={singerName} />
+      <SongTitle songTitle={songTitle} />
     </div>
   );
 }; */
