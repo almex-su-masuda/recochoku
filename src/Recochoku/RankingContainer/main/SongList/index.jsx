@@ -6,9 +6,11 @@ import SongItem from "../../components/SongItem";
 import "./style.scss";
 
 /* const SongList = ({rankNumber}, {songTitle}, {singerName}) => (
-  <div className="song-list-wrapper">
-    <SongItem rankNumber={rankNumber} songTitle={songTitle} singerName={singerName} />
-  </div>
+  rankNumber.map((rankNumber, i) => {
+    <div className="song-list-wrapper">
+      <SongItem rankNumber={rankNumber[i]}, songTitle={songTitle[i]}, singerName={singerName[i]} />
+    </div>
+  });
 ); */
 
 const SongList = () => (
