@@ -4,8 +4,8 @@ import React from "react";
 import "./style.scss";
 
 // arrow function
-function RankNumber(props) {
-  return <div className="rank-number-wrapper">{props.rankNumber}</div>;
-}
+const RankNumber = ({ rankNumber }) => (
+  <div className="rank-number-wrapper">{rankNumber}</div>
+);
 
 export default RankNumber;

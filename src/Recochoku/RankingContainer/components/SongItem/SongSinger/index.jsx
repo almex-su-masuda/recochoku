@@ -4,8 +4,8 @@ import React from "react";
 import "./style.scss";
 
 // arrow function
-function SongSinger(props) {
-  return <div className="song-singer-wrapper">{props.singerName}</div>;
-}
+const SongSinger = ({ singerName }) => (
+  <div className="song-singer-wrapper">{singerName}</div>
+);
 
 export default SongSinger;
