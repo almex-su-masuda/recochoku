@@ -2,7 +2,7 @@
 import React from "react";
 // components
 import PickupEdition from "./PickupEdition";
-import SingleRanking from "./RankingContainer";
+import SingleRanking from "./SingleRanking";
 // others
 import "./style.scss";
 

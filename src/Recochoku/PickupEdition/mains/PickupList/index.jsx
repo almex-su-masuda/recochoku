@@ -17,7 +17,7 @@ const pickupList = [
 const PickupList = () => (
   <div className="pickup-list-wrapper">
     {pickupList.map(pickupItemName => (
-      <PickupItem pickupItemName={pickupItemName} />
+      <PickupItem key={pickupItemName} keypickupItemName={pickupItemName} />
     ))}
   </div>
 );
