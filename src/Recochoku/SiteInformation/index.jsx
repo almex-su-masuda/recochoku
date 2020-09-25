@@ -2,16 +2,16 @@
 import React from "react";
 // compornents
 import Topics from "./Topics";
-// import FavoriteArtistInformation from "./FavoriteArtistInformation";
-// import PurchaseEdition from "./PurchaseEdition";
+import FavoriteArtistInformation from "./FavoriteArtistInformation";
+import PurchaseEdition from "./PurchaseEdition";
 // others
 import "./style.scss";
 
 const SiteInformation = () => (
-  <div className="site-information">
+  <div className="site-information-wrapper">
     <Topics />
-    {/* <FavoriteArtistInformation />
-    <PurchaseEdition /> */}
+    <FavoriteArtistInformation />
+    <PurchaseEdition />
   </div>
 );
 

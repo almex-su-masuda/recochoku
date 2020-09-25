@@ -7,9 +7,9 @@ import "./style.scss";
 
 const InformationList = ({ informationContents }) => (
   <div className="information-list-wrapper">
-    {/* {informationContents.map(informationContents => ( */}
-    <InformationItem informationContents={informationContents} />
-    {/* ))} */}
+    {informationContents.map(informationContents => (
+      <InformationItem informationContents={informationContents} />
+    ))}
   </div>
 );
 

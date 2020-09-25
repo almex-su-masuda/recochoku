@@ -3,11 +3,13 @@ import React from "react";
 // components
 import InformationContents from "./InformationContents";
 import InformationItemImage from "./InformationItemImage";
+// others
+import "./style.scss";
 
 const InformationItem = ({ informationContents }) => (
   <div className="topic-item-wrapper">
-    <InformationContents informationContents={informationContents} />
     <InformationItemImage />
+    <InformationContents informationContents={informationContents} />
   </div>
 );
 

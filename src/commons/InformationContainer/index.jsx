@@ -6,7 +6,7 @@ import TitleLabel from "./components/TitleLabel";
 // others
 import "./style.scss";
 
-const InformationContainer = ({ titleLabel }, { informationContents }) => (
+const InformationContainer = ({ titleLabel, informationContents }) => (
   <div className="information-container-wrapper">
     <TitleLabel titleLabel={titleLabel} />
     <InformationList informationContents={informationContents} />

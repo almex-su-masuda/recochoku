@@ -1,5 +1,5 @@
 .pickup-item-wrapper {
-  width: 200px;
-  height: 100px;
+  width: minmax(200, 1fr);
+  padding-top: 50%;
   background-color: pink;
 }
