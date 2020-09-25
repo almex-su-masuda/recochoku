@@ -4,7 +4,7 @@ import React from "react";
 import "./style.scss";
 
 const TitleLabel = ({ titleLabel }) => (
-  <div className="information-title-label-wrapper">{titleLabel}</div>
+  <div className="topics-title-label-wrapper">{titleLabel}</div>
 );
 
 export default TitleLabel;

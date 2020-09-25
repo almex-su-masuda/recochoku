@@ -1,11 +1,12 @@
 // libs
 import React from "react";
 // components
-import InformationContainer from "../../../commons/InformationContainer";
+import TitleLabel from "./components/TitleLabel";
+import TopicList from "./mains/TopicList";
 // others
 import "./style.scss";
 
-const informationContents = [
+const topicContents = [
   "【毎日宝くじ】無料クーポンがあたる♪",
   "あたりがでたら1曲無料",
   "【無料】映像とメッセージでプレイリストにしよう",
@@ -13,11 +14,9 @@ const informationContents = [
 ];
 
 const Topics = () => (
-  <div className="topics-wrapper">
-    <InformationContainer
-      titleLabel="TOPICS"
-      informationContents={informationContents}
-    />
+  <div className="topic-container-wrapper">
+    <TitleLabel titleLabel="TOPICS" />
+    <TopicList topicContents={topicContents} />
   </div>
 );
 

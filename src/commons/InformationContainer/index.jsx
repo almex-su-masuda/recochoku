@@ -1,14 +1,14 @@
 // libs
 import React from "react";
 // conponents
-import InformationList from "./main/InformationList";
-import TitleLabel from "./components/TitleLabel";
+import InformationList from "./mains/InformationList";
+import InformationTitle from "./components/InformationTitle";
 // others
 import "./style.scss";
 
-const InformationContainer = ({ titleLabel, informationContents }) => (
+const InformationContainer = ({ informationTitle, informationContents }) => (
   <div className="information-container-wrapper">
-    <TitleLabel titleLabel={titleLabel} />
+    <InformationTitle informationTitle={informationTitle} />
     <InformationList informationContents={informationContents} />
   </div>
 );
