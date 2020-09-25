@@ -38,6 +38,10 @@ const songList = [
   }
 ];
 
-const SingleRanking = () => <RankingContainer songList={songList} />;
+const SingleRanking = () => (
+  <div className="single-ranking-wrapper">
+    <RankingContainer songList={songList} />
+  </div>
+);
 
 export default SingleRanking;

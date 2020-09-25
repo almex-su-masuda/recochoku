@@ -1,4 +1,5 @@
 .pickup-edition-wrapper {
+  grid-column: span 2;
   display: grid;
   grid-template-rows: max-content max-content;
   grid-template-columns: max-content max-content;
