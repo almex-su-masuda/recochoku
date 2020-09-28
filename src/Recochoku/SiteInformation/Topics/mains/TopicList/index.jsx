@@ -8,7 +8,7 @@ import "./style.scss";
 const TopicList = ({ topicContents }) => (
   <div className="topic-list-wrapper">
     {topicContents.map(topicContents => (
-      <TopicItem topicContents={topicContents} />
+      <TopicItem key={topicContents} topicContents={topicContents} />
     ))}
   </div>
 );
