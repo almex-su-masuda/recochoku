@@ -1,0 +1,8 @@
+.song-list-wrapper {
+  grid-column: span 2;
+  display: grid;
+  grid-template-rows: max-content max-content max-content;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-flow: column;
+  grid-gap: 0px 50px;
+}
