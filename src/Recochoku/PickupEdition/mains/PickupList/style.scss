@@ -2,7 +2,7 @@
 .pickup-list-wrapper {
   grid-column: span 2;
   display: grid;
-  grid-template-rows: min-content min-content;
+  grid-template-rows: fit-content fit-content;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 20px;
 }
