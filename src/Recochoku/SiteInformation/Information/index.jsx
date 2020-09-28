@@ -9,7 +9,7 @@ import "./style.scss";
 const Information = () => (
   <div className="information-wrapper">
     <FavoriteArtistInformation />
-    <hr className="separating-line"></hr>
+    <div className="separating-line"></div>
     <PurchaseEdition />
   </div>
 );
