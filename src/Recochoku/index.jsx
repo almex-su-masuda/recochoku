@@ -5,6 +5,8 @@ import SiteInformation from "./SiteInformation";
 import PickupEdition from "./PickupEdition";
 import SingleRanking from "./SingleRanking";
 import NewArrivals from "./NewArrivals";
+import BreakThrough from "./BreakThrough";
+import SpecialPrice from "./SpecialPrice";
 // others
 import "./style.scss";
 
@@ -12,8 +14,10 @@ const Recochoku = () => (
   <div className="recochoku-wrapper">
     <NewArrivals />
     <SiteInformation />
-    <PickupEdition />
     <SingleRanking />
+    <PickupEdition />
+    <BreakThrough />
+    <SpecialPrice />
   </div>
 );
 
