@@ -7,6 +7,9 @@ import SingleRanking from "./SingleRanking";
 import NewArrivals from "./NewArrivals";
 import BreakThrough from "./BreakThrough";
 import SpecialPrice from "./SpecialPrice";
+import BestAlbumList from "./BestAlbumList";
+import FamousSongList from "./FamousSongList";
+import CompilationAlbumList from "./CompilationAlbumList";
 // others
 import "./style.scss";
 
@@ -18,6 +21,9 @@ const Recochoku = () => (
     <PickupEdition />
     <BreakThrough />
     <SpecialPrice />
+    <BestAlbumList />
+    <FamousSongList />
+    <CompilationAlbumList />
   </div>
 );
 
