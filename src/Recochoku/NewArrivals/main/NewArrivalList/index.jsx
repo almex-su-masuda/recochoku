@@ -45,7 +45,7 @@ const songList = [
 const NewArrivalList = () => (
   <div className="new-arrival-list-wrapper">
     {songList.map(songItem => (
-      <SongItem {...songItem} />
+      <SongItem key={songItem.songTitle} {...songItem} />
     ))}
   </div>
 );
