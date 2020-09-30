@@ -4,6 +4,7 @@ import React from "react";
 import SiteInformation from "./SiteInformation";
 import PickupEdition from "./PickupEdition";
 import SingleRanking from "./SingleRanking";
+import AlbumRanking from "./AlbumRanking";
 import NewArrivals from "./NewArrivals";
 import BreakThrough from "./BreakThrough";
 import SpecialPrice from "./SpecialPrice";
@@ -19,6 +20,7 @@ const Body = () => (
     <NewArrivals />
     <SiteInformation />
     <SingleRanking />
+    <AlbumRanking />
     <PickupEdition />
     <BreakThrough />
     <SpecialPrice />

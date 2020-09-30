@@ -7,9 +7,9 @@ import SongList from "./main/SongList";
 // others
 import "./style.scss";
 
-const RankingContainer = ({ songList }) => (
+const RankingContainer = ({ rankingTitle, songList }) => (
   <div className="ranking-container-wrapper">
-    <RankingTitle />
+    <RankingTitle rankingTitle={rankingTitle} />
     <MoreButton />
     <SongList songList={songList} />
   </div>
