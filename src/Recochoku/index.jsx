@@ -10,6 +10,7 @@ import SpecialPrice from "./SpecialPrice";
 import BestAlbumList from "./BestAlbumList";
 import FamousSongList from "./FamousSongList";
 import CompilationAlbumList from "./CompilationAlbumList";
+import GenreSelection from "./GenreSelection";
 // others
 import "./style.scss";
 
@@ -24,6 +25,7 @@ const Recochoku = () => (
     <BestAlbumList />
     <FamousSongList />
     <CompilationAlbumList />
+    <GenreSelection />
   </div>
 );
 
