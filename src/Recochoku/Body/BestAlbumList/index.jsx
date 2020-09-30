@@ -1,7 +1,7 @@
 // libs
 import React from "react";
 // components
-import RecommendSongContainer from "../../commons/RecommendSongContainer";
+import RecommendSongContainer from "../../../commons/RecommendSongContainer";
 // others
 import "./style.scss";
 

@@ -1,7 +1,7 @@
 // libs
 import React from "react";
 // components
-import RankingContainer from "../../commons/RankingContainer";
+import RankingContainer from "../../../commons/RankingContainer";
 // others
 import "./style.scss";
 

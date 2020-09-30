@@ -1,7 +1,7 @@
 // libs
 import React from "react";
 // components
-import InformationContainer from "../../../../commons/InformationContainer";
+import InformationContainer from "../../../../../commons/InformationContainer";
 // others
 import "./style.scss";
 
