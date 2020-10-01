@@ -11,10 +11,12 @@ import "./style.scss";
 
 const Body = () => (
   <div className="body-wrapper">
-    <BodyFirstEdition />
-    <BodySecondEdition />
-    <BodyThirdEdition />
-    <BodyFourthEdition />
+    <div className="body-wrapper-inner">
+      <BodyFirstEdition />
+      <BodySecondEdition />
+      <BodyThirdEdition />
+      <BodyFourthEdition />
+    </div>
   </div>
 );
 
