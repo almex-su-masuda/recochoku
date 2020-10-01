@@ -1,8 +1,6 @@
 .body-wrapper {
-  background-color: #fff;
-  width: 1000px;
+  width: 100%;
   display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: 1fr min-content;
+  grid-gap: 10px;
   margin: 0 auto;
 }
