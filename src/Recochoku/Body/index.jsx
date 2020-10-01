@@ -4,7 +4,7 @@ import React from "react";
 import BodyFirstEdition from "./BodyFirstEdition";
 import BodySecondEdition from "./BodySecondEdition";
 import BodyThirdEdition from "./BodyThirdEdition";
-import GenreSelection from "./GenreSelection";
+import BodyFourthEdition from "./BodyFourthEdition";
 
 // others
 import "./style.scss";
@@ -14,7 +14,7 @@ const Body = () => (
     <BodyFirstEdition />
     <BodySecondEdition />
     <BodyThirdEdition />
-    <GenreSelection />
+    <BodyFourthEdition />
   </div>
 );
 

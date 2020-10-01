@@ -1,6 +1,6 @@
 .pickup-edition-wrapper {
   background-color: #fff;
-  // grid-column: span 2;
+  max-width: 1000px;
   display: grid;
   grid-template-rows: fit-content fit-content;
   grid-template-columns: 1fr 1fr;
