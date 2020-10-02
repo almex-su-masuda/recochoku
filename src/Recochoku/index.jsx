@@ -12,6 +12,7 @@ import PickupEdition from "./PickupEdition";
 import SingleRanking from "./SingleRanking";
 import SpecialPrice from "./SpecialPrice";
 import TopInformationEdition from "./TopInformationEdition";
+import Footer from "./Footer";
 // otjers
 import "./style.scss";
 
@@ -36,6 +37,7 @@ const Recochoku = () => (
     <div className="recochoku-wrapper-inner">
       <GenreSelection />
     </div>
+    <Footer />
   </div>
 );
 
