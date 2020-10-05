@@ -1,15 +1,17 @@
 // libs
 import React from "react";
 // components
-import ContentTitle from "../SiteMapItem/ContentTitle";
-import SiteMapItem from "../SiteMapItem";
+import ContentTitle from "../ContentTitle";
+import SiteContent from "../SiteContent";
 // others
 import "./style.scss";
 
-const SiteMapList = ({ contentTitle, siteContent }) => (
+const SiteMapList = ({ contentTitle, siteContent = [] }) => (
   <div className="site-map-list-wrapper">
     <ContentTitle contentTitle={contentTitle} />
-    <SiteMapItem siteContent={siteContent} />
+    {siteContent.map(siteContentItem => (
+      <SiteContent key={siteContentItem} siteContent={siteContentItem} />
+    ))}
   </div>
 );
 
