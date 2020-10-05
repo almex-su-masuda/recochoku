@@ -1,0 +1,8 @@
+.footer-rink-title-wrapper {
+  font-size: 12px;
+  text-align: center;
+  padding: 0 20px;
+}
+.footer-rink-title-wrapper + .footer-rink-title-wrapper {
+  border-left: 1px solid black;
+}

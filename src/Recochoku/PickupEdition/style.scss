@@ -1,9 +1,8 @@
 .pickup-edition-wrapper {
-  background-color: #fff;
-  max-width: 1000px;
+  width: 1000px;
   display: grid;
-  grid-template-rows: fit-content fit-content;
-  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-columns: auto auto;
   grid-gap: 20px 0px;
   padding: 20px;
 }
