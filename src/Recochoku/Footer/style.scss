@@ -3,6 +3,8 @@
   display: flex;
   justify-content: center;
   .footer-wrapper-inner {
-    max-width: 1000px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
   }
 }

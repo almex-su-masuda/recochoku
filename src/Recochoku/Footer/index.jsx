@@ -4,6 +4,7 @@ import React from "react";
 import AppStoreQr from "./mains/AppStoreQr";
 import RecochokuServiceList from "./mains/RecochokuServiceList";
 import SiteMap from "./mains/SiteMap";
+import AboutRecochoku from "./mains/AboutRecochoku";
 // others
 import "./style.scss";
 
@@ -13,6 +14,7 @@ const Footer = () => (
       <AppStoreQr />
       <RecochokuServiceList />
       <SiteMap />
+      <AboutRecochoku />
     </div>
   </div>
 );

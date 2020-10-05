@@ -5,14 +5,11 @@ import AppQrItem from "../AppQrItem";
 // others
 import "./style.scss";
 
-const AppQrList = ({ appCategory, appName, appStoreImage }) => (
+const AppQrList = ({ appQrList }) => (
   <div className="app-qr-list-wrapper">
-    <AppQrItem
-      appCategory={appCategory}
-      appName={appName}
-      appStoreImage={appStoreImage}
-    />
-    <AppQrItem />
+    {appQrList.map(appQrList => (
+      <AppQrItem key={appQrList.appName} {...appQrList} />
+    ))}
   </div>
 );
 

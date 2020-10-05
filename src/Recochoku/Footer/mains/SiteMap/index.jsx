@@ -2,7 +2,7 @@
 import React from "react";
 // components
 import FooterTitle from "../../components/FooterTitle";
-import SiteMapItem from "../../components/SiteMapItem";
+import SiteMapList from "../../components/SiteMapList";
 // others
 import "./style.scss";
 
@@ -85,28 +85,22 @@ const SiteMap = () => (
   <div className="site-map-wrapper">
     <FooterTitle footerTitle="サイトマップ" />
     <div className="site-map-wrapper-inner">
-      <SiteMapItem contentTitle="レコチョク TOP" />
-    </div>
-    <div className="site-map-wrapper-inner">
-      <SiteMapItem contentTitle="ストアからのお知らせ" />
-    </div>
-    <div className="site-map-wrapper-inner">
-      <SiteMapItem contentTitle="ランキング" siteContent={rankingContent} />
-    </div>
-    <div className="site-map-wrapper-inner">
-      <SiteMapItem contentTitle="ジャンル" siteContent={genreContent} />
-    </div>
-    <div className="site-map-wrapper-inner">
-      <SiteMapItem contentTitle="特集" siteContent={pickupContent} />
-    </div>
-    <div className="site-map-wrapper-inner">
-      <SiteMapItem
-        contentTitle="話題のアーティスト"
-        siteContent={PopularArtist}
-      />
-    </div>
-    <div className="site-map-wrapper-inner">
-      <SiteMapItem contentTitle="レコチョクアフィリエイトについて" />
+      <div className="saite-map-wrapper-inner-inner">
+        <SiteMapList contentTitle="レコチョク TOP" />
+        <SiteMapList contentTitle="ストアからのお知らせ" />
+        <SiteMapList contentTitle="ランキング" siteContent={rankingContent} />
+      </div>
+      <div className="saite-map-wrapper-inner-inner">
+        <SiteMapList contentTitle="ジャンル" siteContent={genreContent} />
+        <SiteMapList contentTitle="特集" siteContent={pickupContent} />
+      </div>
+      <div className="saite-map-wrapper-inner-inner">
+        <SiteMapList
+          contentTitle="話題のアーティスト"
+          siteContent={PopularArtist}
+        />
+        <SiteMapList contentTitle="レコチョクアフィリエイトについて" />
+      </div>
     </div>
   </div>
 );

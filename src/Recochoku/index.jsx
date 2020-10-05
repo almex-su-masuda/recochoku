@@ -18,8 +18,8 @@ import "./style.scss";
 
 const Recochoku = () => (
   <div className="recochoku-wrapper">
+    <TopEdition />
     <div className="recohoku-wrapper-inner">
-      <TopEdition />
       <TopInformationEdition />
     </div>
     <div className="recochoku-wrapper-inner">
