@@ -4,8 +4,8 @@ import React from "react";
 import "./style.scss";
 
 // arrow function
-const RankingTitle = () => (
-  <div className="ranking-title-wrapper">シングルランキング</div>
+const RankingTitle = ({ rankingTitle }) => (
+  <div className="ranking-title-wrapper">{rankingTitle}</div>
 );
 
 export default RankingTitle;

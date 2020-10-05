@@ -1,0 +1,6 @@
+.genre-list-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  grid-row: auto;
+  grid-gap: 20px;
+}

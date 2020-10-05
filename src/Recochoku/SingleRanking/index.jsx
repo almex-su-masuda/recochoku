@@ -39,9 +39,7 @@ const songList = [
 ];
 
 const SingleRanking = () => (
-  <div className="single-ranking-wrapper">
-    <RankingContainer songList={songList} />
-  </div>
+  <RankingContainer rankingTitle="シングルランキング" songList={songList} />
 );
 
 export default SingleRanking;
