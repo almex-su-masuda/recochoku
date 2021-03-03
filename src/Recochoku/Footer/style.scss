@@ -1,0 +1,10 @@
+.footer-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .footer-wrapper-inner {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+  }
+}

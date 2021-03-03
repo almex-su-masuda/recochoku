@@ -1,0 +1,8 @@
+// no css
+.pickup-list-wrapper {
+  grid-column: span 2;
+  display: grid;
+  grid-template-rows: fit-content fit-content;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}

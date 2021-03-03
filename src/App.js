@@ -1,28 +1,12 @@
 // libs
 import React from "react";
 // components
-import TitleProject from "./components/TitleProject";
+import Recochoku from "./Recochoku";
 // others
-import logo from "./logo.svg";
-import "./App.css";
+import "antd/dist/antd.css";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <TitleProject />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <Recochoku />;
 }
 
 export default App;
